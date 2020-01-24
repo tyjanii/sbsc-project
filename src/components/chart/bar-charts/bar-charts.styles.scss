@@ -1,0 +1,40 @@
+.bar-box {
+    box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
+    padding: 2em;
+}
+
+h3,
+.tagline {
+    color: #253858;
+}
+
+.tagline {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+span {
+    background: #f2f2f2;
+    padding: 0.2em;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.totals-wrapper {
+    display: flex;
+    margin: 10px 0;
+}
+
+.total-spent {
+    margin-right: 8%;
+
+    span {
+        color: #4abba4;
+    }
+}
+
+.total-balance {
+    span {
+        color: #c00202;
+    }
+}

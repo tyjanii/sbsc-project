@@ -1,0 +1,29 @@
+.nav-wrapper {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
+
+    .user-profile {
+        display: flex;
+        width: 15%;
+        align-items: center;
+
+        .username-box {
+            .username {
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+
+            .position {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .burger {
+        transform: scale(1.7);
+        cursor: pointer;
+    }
+}

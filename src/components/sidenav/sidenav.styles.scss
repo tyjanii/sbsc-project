@@ -1,0 +1,19 @@
+.main-nav {
+    height: 100vh;
+    width: inherit;
+    position: fixed;
+    background: #13244e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav-logo-box {
+        text-align: center;
+
+        .logo {
+            margin: 30px auto;
+        }
+    }
+}
+
+.hide {}
